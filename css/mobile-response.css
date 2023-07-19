@@ -48,7 +48,9 @@
     grid-template-columns: 1fr;
     row-gap: 20px;
   }
-
+  #hover {
+    height: calc(100% - 52px);
+  }
   .no-downloads {
     padding: 0 50px 100px;
     flex-direction: column;
