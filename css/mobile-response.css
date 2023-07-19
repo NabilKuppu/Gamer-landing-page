@@ -1,3 +1,4 @@
+/* Mobile Responsive Begining */
 @media (max-width: 576px) {
   .button {
     padding: 20px 30px;
@@ -99,3 +100,4 @@
     grid-template-columns: repeat(2, auto);
   }
 }
+/* Mobile Responsive Ending */
