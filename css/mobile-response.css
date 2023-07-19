@@ -1,0 +1,99 @@
+@media (max-width: 576px) {
+  .button {
+    padding: 20px 30px;
+  }
+
+  .nav-container {
+    padding: 50px 50px;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .nav-right {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .banner {
+    grid-template-columns: 1fr;
+  }
+
+  .banner-left {
+    padding: 50px 50px;
+    background-size: 100% 100%;
+  }
+
+  .banner-right {
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .gamer {
+    padding: 50px 50px;
+    grid-template-columns: 1fr;
+  }
+
+  .gamer-right {
+    align-items: center;
+  }
+
+  .gamer-right p {
+    text-align: center;
+  }
+
+  .videos {
+    padding: 50px 50px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+
+  .no-downloads {
+    padding: 0 50px 100px;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .rev {
+    flex-direction: column-reverse;
+  }
+
+  .down-left,
+  .rev .down-left {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .img2,
+  .rev .img2 {
+    left: 25%;
+  }
+
+  .career {
+    grid-template-columns: 1fr;
+  }
+
+  .car-left {
+    padding: 50px 50px;
+  }
+
+  .item p {
+    font-size: 0.95em;
+  }
+
+  .category,
+  footer {
+    padding: 50px 50px;
+  }
+
+  .foot-nav,
+  .foot-icons {
+    grid-template-columns: repeat(3, auto);
+  }
+
+  .foot-menu {
+    grid-template-columns: repeat(2, auto);
+  }
+}
